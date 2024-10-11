@@ -1,0 +1,7 @@
+{
+  "name": "AplikasiCuaca-Anta",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

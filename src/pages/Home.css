@@ -1,0 +1,129 @@
+.kontainer-input {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.input-kota {
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 8px;
+  padding-left: 10px;
+  background-color: #d0f0fd;
+  color: #004d73;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  height: 40px;
+}
+
+ion-card {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #e0f7ff, #a6d8ff);
+  margin: 20px;
+}
+
+ion-button {
+  width: 30%;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0;
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+ion-button:hover {
+  background-color: #1976d2;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+}
+
+.detail-cuaca {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.box-cuaca {
+  background-color: #ccefff;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 45%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #004d73;
+  font-weight: bold;
+}
+
+.box-cuaca p {
+  margin: 4px 0;
+}
+
+.nilai {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e90ff;
+}
+
+.judul-kota {
+  color: #003366;
+}
+
+.suhu {
+  color: #ffcc00;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.deskripsi {
+  font-size: 16px;
+  margin-top: -10px;
+  color: #004d73;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .kontainer-input {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .input-kota {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  ion-button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .kontainer-input {
+    justify-content: center;
+  }
+
+  .detail-cuaca {
+    justify-content: space-between;
+  }
+
+  .box-cuaca {
+    width: 30%;
+  }
+}
